@@ -16,12 +16,30 @@
 }
 .logo{
   text-align: center;
-
 }
 
 .stash-logo{
 width: 600px;
 height: 300px;
+}
+
+.stash-logo-header{
+  width: 100px;
+  height: 50px;
+  vertical-align: middle;
+  padding: 2px;
+}
+
+.affix .stash-logo-words{
+    display: none;
+}
+
+.affix-top  .stash-logo-header{
+  display: none;
+}
+
+.affix .navbar-brand{
+  padding: 0;
 }
 
 @media (max-width: 984px){
@@ -35,4 +53,32 @@ height: 300px;
 
 .white{
   color: white;
+}
+
+.video{
+  padding: 0px 0;
+  background-color: var(--brandgreen);
+  width: 100%;
+}
+.video-wrapper{
+  width: 100%;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.video-frame{
+  position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.feature-item{
+    text-align: center;
+}
+
+.icon{
+  font-size: 6em;
+  text-align: center;
+  color: var(--brandgrey);
 }

@@ -1,0 +1,38 @@
+:root{
+  --brandgren:  rgb(97, 232, 191);
+  --brandgrey:  rgb(76,  91, 92);
+  --brandblue: rgb(56, 145, 166) ;
+  --brandred: rgb(175, 91, 91) ;
+    --brandorange: rgb(237, 106, 90) ;
+
+}
+
+
+
+.device-mockup > .device {
+  width: 1391px;
+  height: 860px;
+
+}
+.logo{
+  text-align: center;
+
+}
+
+.stash-logo{
+width: 600px;
+height: 300px;
+}
+
+@media (max-width: 984px){
+
+  .stash-logo{
+  width: 400px;
+  height: 200px;
+  }
+
+}
+
+.white{
+  color: white;
+}

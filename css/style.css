@@ -1,12 +1,45 @@
 :root{
-  --brandgren:  rgb(97, 232, 191);
-  --brandgrey:  rgb(76,  91, 92);
+   --brandgreen:  rgb(95, 231, 191);
+  --brandgrey:  rgb(64,  64, 64);
   --brandblue: rgb(56, 145, 166) ;
   --brandred: rgb(175, 91, 91) ;
     --brandorange: rgb(237, 106, 90) ;
 
 }
 
+.blue{
+    background-color: var(--brandblue);
+}
+
+.green{
+    background-color: var(--brandgreen);
+}
+
+.dark{
+    background-color: var(--brandgrey);
+}
+
+/*shadows*/
+.soft-shadow{
+   margin: 0 auto;
+   -webkit-box-shadow: 0 2px 30px 1px #ddd;
+   box-shadow: 0 2px 30px 1px #ddd;
+}
+
+.soft-shadow-dark{
+   margin: 0 auto;
+   -webkit-box-shadow: 0 2px 30px 1px #333;
+   box-shadow: 0 2px 30px 1px #333;
+}
+
+.navbar-default{
+    font-weight: 400;
+}
+
+.btn-outline:hover{
+    -webkit-box-shadow: 0 2px 30px 1px #444;
+    box-shadow: 0 2px 30px 1px #444;
+}
 
 
 .device-mockup > .device {
@@ -76,9 +109,153 @@ height: 300px;
 .feature-item{
     text-align: center;
 }
+.feature-item h3{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.benefits .feature-item{
+    border-radius: 10px;
+    padding: 20px;
+margin-bottom: 30px;
+color: var(--brandgrey);
+}
+
+@media (min-width: 992px){
+.benefits .feature-item{
+    height: 350px;
+    margin-bottom: 10px;
+}
+}
+
+
 
 .icon{
   font-size: 6em;
   text-align: center;
   color: var(--brandgrey);
+}
+
+.features{
+  background-color: var(--brandgrey);
+  color: white;
+}
+
+.features .text-muted{
+  color: var(--lightgrey);
+}
+
+.feature-list{
+font-weight: 300;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+section.features .feature-item{
+    height: 250px;
+    border-radius: 7px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 992px){
+.features.feature-item{
+    margin-bottom: 10px;
+}
+}
+
+
+.pricing .feature-item{
+    border-radius: 10px;
+    padding: 20px;
+margin-bottom: 30px;
+color: white;
+}
+
+.pricing .feature-item-2{
+    border-radius: 10px;
+    padding: 20px;
+margin-bottom: 30px;
+    color: var(--brandgrey);
+}
+
+.pricing .text-muted {
+    color: white;
+}
+
+
+ .pricing hr{
+     border-color: white;
+ }
+
+@media (min-width: 992px){
+.pricing .feature-item{
+    height: 700px;
+    margin-bottom: 10px;
+}
+.more-padding{
+    padding-top: 50px;
+}
+}
+
+@media (min-width: 1200px){
+.pricing .feature-item{
+    height: 600px;
+    margin-bottom: 10px;
+}
+.more-padding{
+    padding-top: 50px;
+}
+}
+
+.pricing .green .text-muted{
+    color: var(--brandgrey);
+}
+
+.green{
+        color: var(--brandgrey);
+}
+
+td{
+    font-size: 1.5em;
+    text-align: left;
+    padding: 10px;
+}
+
+td .icon-check{
+    font-size: 30px;
+    color: white;
+    vertical-align: middle;
+}
+
+.green td .icon-check{
+    color: var(--brandgrey);
+}
+
+.dark-text{
+        color: var(--brandgrey) !important;
+}
+
+section.contact ul.list-social li a:hover {
+text-decoration: none;
+ background-color: #444;
+}
+
+.technology{
+    background-color: var(--brandgreen);
+}
+
+    .tech-info{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+
+@media(min-width: 992px){
+    .tech-info{
+        width: 80%;
+        margin-left: 10%;
+    }
 }

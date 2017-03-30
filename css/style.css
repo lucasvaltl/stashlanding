@@ -28,8 +28,8 @@
 
 .soft-shadow-dark{
    margin: 0 auto;
-   -webkit-box-shadow: 0 2px 30px 1px #333;
-   box-shadow: 0 2px 30px 1px #333;
+   -webkit-box-shadow: 0 2px 30px 1px #121212;
+   box-shadow: 0 2px 30px 1px #121212;
 }
 
 .soft-shadow-blue{
@@ -144,11 +144,11 @@ color: var(--brandgrey);
 
 .features{
   background-color: var(--brandgrey);
+  color: white;
 }
 
 .feature-list{
 font-weight: 300;
-color: white;
 }
 
 

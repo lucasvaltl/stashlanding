@@ -26,6 +26,18 @@
    box-shadow: 0 2px 30px 1px #ddd;
 }
 
+.soft-shadow-medium{
+   margin: 0 auto;
+   -webkit-box-shadow: 0 2px 30px 1px #bbb;
+   box-shadow: 0 2px 30px 1px #bbb;
+}
+
+.soft-shadow-medium-plus{
+   margin: 0 auto;
+   -webkit-box-shadow: 0 2px 30px 1px #999;
+   box-shadow: 0 2px 30px 1px #999;
+}
+
 .soft-shadow-dark{
    margin: 0 auto;
    -webkit-box-shadow: 0 2px 30px 1px #121212;

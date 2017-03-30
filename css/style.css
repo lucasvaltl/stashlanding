@@ -144,7 +144,6 @@ color: var(--brandgrey);
 
 .features{
   background-color: var(--brandgrey);
-  color: white;
 }
 
 .features .text-muted{
@@ -164,6 +163,7 @@ section.features .feature-item{
     border-radius: 7px;
     padding: 20px;
     margin-bottom: 40px;
+    background-color: white;
 }
 
 @media (min-width: 992px){
